@@ -1,0 +1,13 @@
+.fournisseurs-container {
+  .fournisseur-container {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    .fournisseur-container-link {
+      text-decoration: none;
+    }
+  }
+}

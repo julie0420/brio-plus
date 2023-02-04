@@ -1,0 +1,23 @@
+.footer {
+  height: 130px;
+  background-color: #1b2e50;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  span {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+.logofooter {
+  height: 90px;
+  width: 210px;
+  margin: 0px auto 0px auto;
+}
