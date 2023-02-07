@@ -12,7 +12,7 @@ const Navigation = () => {
   const { currentUser } = useContext(UserContext);
   const navigate = useNavigate();
 
-  const checkoutHandler = () => {
+  const signOutHandler = () => {
     signOutTheUser();
     navigate("/");
   };
@@ -25,11 +25,17 @@ const Navigation = () => {
         </Link>
 
         <div className="nav-links-container">
+          <Link className="nav-link" to="/">
+            Acceuil
+          </Link>
           <Link className="nav-link" to="/fournisseurs">
             Fournisseurs
           </Link>
+          <Link className="nav-link" to="/commander">
+            Commander
+          </Link>
           {currentUser ? (
-            <span className="nav-link" onClick={checkoutHandler}>
+            <span className="nav-link" onClick={signOutHandler}>
               Déconnexion
             </span>
           ) : (

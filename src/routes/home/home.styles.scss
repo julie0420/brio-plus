@@ -1,4 +1,53 @@
 .homepage-div {
   background-color: #fa4f00;
-  height: 100vh;
+  height: max;
+  padding: 30px;
+}
+.coverImg {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.sampleImages {
+  width: 100%;
+  padding: 5vw, 5vw, 5vw, 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  position: relative;
+  bottom: 10vw;
+}
+.midImg {
+  width: 16vw;
+  padding-bottom: 0px;
+  border-radius: 20px;
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    opacity: 0.9;
+  }
+}
+.intro {
+  position: relative;
+  bottom: 10vw;
+  margin: 40px auto auto auto;
+  text-align: justify;
+  width: 800px;
+  color: white;
+  h2 {
+    text-align: center;
+  }
+}
+
+.people {
+  display: block;
+  margin: 40px auto auto auto;
+}
+
+.dog {
+  display: block;
+  width: 400px;
+  margin: 40px auto auto auto;
 }
